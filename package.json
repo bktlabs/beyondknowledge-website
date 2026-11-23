@@ -1,0 +1,15 @@
+{
+  "name": "beyondknowledge-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The corporate website of Beyond Knowledge Technologies Sagl",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs --source",
+    "build": "node scripts/build.mjs",
+    "build:production": "node scripts/build.mjs --mode=production",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/check.test.mjs"
+  }
+}
